@@ -1,0 +1,21 @@
+#include<cstdlib>
+#include<iostream>
+using namespace std;
+int volumebalok(int p, int l, int t){
+    int volume;
+    volume = p*l*t;
+    return volume;
+}
+
+int main(){
+    int p,l,t,volume;
+    p= 120;
+    l=90;
+    t=12;
+    volume = volumebalok(p,l,t);
+    
+    cout << "Volume BALOK =  " <<volume<<endl;
+    system("PAUSE");
+    return 0;
+    
+}
